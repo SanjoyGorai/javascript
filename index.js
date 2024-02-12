@@ -9,7 +9,15 @@ addEventListener('paste', () => {
 })
 
 addEventListener('cut', () => {
-    alert('Cut Event')
+    // alert('Cut Event')
+})
+
+oncut = (e) => {
+    alert('On cut event')
+}
+
+addEventListener('scroll', () => {
+    alert('scroll event')
 })
 
 console.log();
