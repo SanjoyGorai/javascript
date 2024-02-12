@@ -1,0 +1,23 @@
+.form-a {
+    background-color: pink;
+    font-family: sans-serif;
+    color: blue;
+    padding: 10px;
+}
+
+.form-a>input {
+    padding: 8px;
+}
+
+.btn {
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
