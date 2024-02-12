@@ -1,4 +1,8 @@
 
+document.write('HEllo JS')
+document.write('HEllo JS')
+document.writeln('HEllo JS')
+document.write('<h1>Hello</h1>')
 
 addEventListener('copy', () => {
     alert('Copy Event')
@@ -17,7 +21,11 @@ oncut = (e) => {
 }
 
 addEventListener('scroll', () => {
-    alert('scroll event')
+    // alert('scroll event')
+})
+
+addEventListener('fullscreenchange',()=>{
+    alert('Fullscreen change event')
 })
 
 console.log();
